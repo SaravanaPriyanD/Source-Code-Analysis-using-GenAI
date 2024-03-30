@@ -23,3 +23,19 @@ conda activate llmapp
 ```bash
 pip install -r requirements.txt
 ```
+
+### Create a .env file in the root directory and add your OPENAI_API_KEY credentials as follows:
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Finally run the following command
+python app.py
+
+open up localhost:8080
+
+## Techstack Used:
+Python
+LangChain
+Flask
+OpenAI
+GPT 3
+ChoromaDB
